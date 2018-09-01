@@ -1,0 +1,61 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^index\.html$ "http\:\/\/paediatricphysio\.com\.au\/index\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^Media_Links_and_FAQ\.html$ "http\:\/\/paediatricphysio\.com\.au\/faqs\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^Testimonials\.html$ "http\:\/\/paediatricphysio\.com\.au\/testimonials\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^Vojta\ Therapy\.html$ "http\:\/\/paediatricphysio\.com\.au\/therapies\-and\-services\/vojta\-therapy\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^Vojta_Therapy\.html$ "http\:\/\/paediatricphysio\.com\.au\/therapies\-and\-services\/vojta\-therapy\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^How\ Physiotherapy\ Helps\.html$ "http\:\/\/paediatricphysio\.com\.au\/about\/how\-physiotherapy\-helps\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^How_Physiotherapy_Helps\.html$ "http\:\/\/paediatricphysio\.com\.au\/about\/how\-physiotherapy\-helps\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^My_Approach\.html$ "http\:\/\/paediatricphysio\.com\.au\/about\/my\-approach\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^About\ Me\.html$ "http\:\/\/paediatricphysio\.com\.au\/about\/about\-me\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^About_Me1\.html$ "http\:\/\/paediatricphysio\.com\.au\/about\/about\-me\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^About_Me\.html$ "http\:\/\/paediatricphysio\.com\.au\/about\/about\-me\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^Home\.html$ "http\:\/\/paediatricphysio\.com\.au\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^My\ Approach\.html$ "http\:\/\/paediatricphysio\.com\.au\/about\/my\-approach\.htm" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^paediatricphysio\.com\.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paediatricphysio\.com\.au$
+RewriteRule ^funding$ "http\:\/\/paediatricphysio\.com\.au\/funding\.htm" [R=301,L]
+
