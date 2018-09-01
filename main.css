@@ -59,7 +59,7 @@ nav .ndt { text-transform: initial;}
 
 /* Slideshow */
 
-#slideshow { background: #655d59 url(/_System/images/load.gif) center no-repeat; position: relative; margin: 30px 0 0 0; padding: 0; width: 100%; height: auto; max-height: 1000px; overflow: hidden;}
+#slideshow { background: #655d59 url(/system/images/load.gif) center no-repeat; position: relative; margin: 30px 0 0 0; padding: 0; width: 100%; height: auto; max-height: 1000px; overflow: hidden;}
 #slideshow .quote { background-color: rgba(0, 0, 0, 0.6); position: absolute; top: 66%; left: 0; width: 100%; z-index: 19; text-align: center;}
 #slideshow .quote span { display: inline-block; position: relative; margin: 0 auto; padding: 18px 7% 22px 7%; font: 300 65px/70px 'Roboto', arial; color: #fff;}
 #slideshow .scroll { position: absolute; bottom: 0; left: 0; width: 100%; height: 354px; z-index: 18; text-align: center;}
@@ -73,8 +73,8 @@ nav .ndt { text-transform: initial;}
 .random .item { display: none;}
 .slide { max-height: 550px;}
 a.nav { position: absolute; bottom: 50%; margin: 0 0 -35px 0; width: 22px; height: 35px; z-index: 20; cursor: pointer;}
-a.nav.prev { background: url(/_System/images/arrows.png) top left; left: 50px; display: block;}
-a.nav.next { background: url(/_System/images/arrows.png) top right; right: 50px; display: block;}
+a.nav.prev { background: url(/system/images/arrows.png) top left; left: 50px; display: block;}
+a.nav.next { background: url(/system/images/arrows.png) top right; right: 50px; display: block;}
 
 /* BOXES */
 #boxes { clear:both; }
@@ -218,7 +218,7 @@ main { background: #fff; }
 .content .contPadWrapper div p{ margin:0; }
 .content .quote{ position:relative; margin:0; padding:5px 0 30px 0; z-index:200; }
 .content .quote .centre{ max-width:50%; text-align:center; }
-.content .quote p .quoteIcon{ background:url('/_System/images/quote2.png') center no-repeat; display:inline-block; margin:0 5px 0 0; width:60px; height:43px; }
+.content .quote p .quoteIcon{ background:url('/system/images/quote2.png') center no-repeat; display:inline-block; margin:0 5px 0 0; width:60px; height:43px; }
 .content .quote p.addInfo a{ padding:8px; }
 
 
@@ -331,7 +331,7 @@ main { background: #fff; }
 .secondlevel .content .quote{ position:relative; margin:0; padding:5px 0 30px 0; z-index:200; }
 .secondlevel .content .quote .centre{ max-width:50%; text-align:center; }
 .secondlevel .content .quote p { font-size: larger; }
-.secondlevel .content .quote p .quoteIcon{ background:url('/_System/images/quote.png') center no-repeat; display:inline-block; margin:0 5px 0 0; width:60px; height:43px; }
+.secondlevel .content .quote p .quoteIcon{ background:url('/system/images/quote.png') center no-repeat; display:inline-block; margin:0 5px 0 0; width:60px; height:43px; }
 .secondlevel .content .quote p.addInfo a{ padding:8px; }
 
 .secondlevel .content .betterStart p { color: #582b6d; font-family: BetterStartBoldBold; }
@@ -377,7 +377,7 @@ footer .copyright p { padding-top: 17px;}
 #form input,#form select,#form textarea { background: none; margin: 0 25px 0 0; padding: 25px 0; width: 49%; float: left; font: 400 16px/20px 'Roboto', arial; text-align: left; text-transform: none; color: #655d59; border: none; border-bottom: 2px solid #726E66; }
 #form textarea { margin-bottom: 0; width: 100%; float: none; clear: both;}
 #form select { padding: 5px; width: 322px; height: 37px;}
-#form input#checkin,#form input#checkout { background: url(/_System/images/datepicker.png) top right no-repeat; cursor: pointer;}
+#form input#checkin,#form input#checkout { background: url(/system/images/datepicker.png) top right no-repeat; cursor: pointer;}
 #form div { position: absolute; right: 0; bottom: 4px;}
 #form input[type=submit] { background: #333; margin: 20px 0 0 0; padding: 15px 20px 18px 20px; width: auto; clear: both; font: 200 26px/26px 'Roboto', arial; cursor: pointer; text-transform: lowercase; color: #fff; border-bottom: none;}
 #form .nomargin { margin: 0 !important;}
@@ -658,7 +658,7 @@ nav .logoBox { padding: 0px 0 0 0px;}
 	nav li a { display: block; margin: 0 !important; padding: 0 !important; width: 100%; height: 65px !important; font: 200 20px/65px 'Roboto', arial !important; color: #333 !important; border: none !important; }
 	nav li.guestbook, nav li.seaplanes, nav li.enquire { display: block !important; }
 	nav a#pull { background: #fff; display: block; position: relative; height: 75px; clear: both; font: 400 20px/70px 'Roboto', arial; text-align: center; text-transform: uppercase !important; text-transform: lowercase; color: #333; border-bottom: 1px solid #BBBBBB; }
-	nav a#pull:after { background: url('/_System/images/nav.png') no-repeat; display: inline-block; position: absolute; top: 30px; right: 20px; width: 30px; height: 30px; content: ''; }
+	nav a#pull:after { background: url('/system/images/nav.png') no-repeat; display: inline-block; position: absolute; top: 30px; right: 20px; width: 30px; height: 30px; content: ''; }
 	#slideshow { margin: 12px 0 0 0; }
 	#container, #slideshow { padding: 0; }
 	#slideshow .quote { top: 33%; }
