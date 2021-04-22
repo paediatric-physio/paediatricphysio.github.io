@@ -362,7 +362,7 @@ footer { position: relative; margin: 0; padding: 0; width: 100%; height: auto; c
 footer p { background: #f0efed; display: block; margin: 0; padding: 25px 0 25px 0; width: 100%; font: 200 14px/14px 'Roboto', arial; text-align: center; color: #b7b4ae;}
 footer p a { padding: 0 25px; color: #b7b4ae;}
 footer p a:last-child { padding: 0 0 0 25px;}
-footer p a.anis { display: inline-block; position: relative; bottom: -7px; padding: 0 0 0 10px; width: 172px; height: 23px;}
+footer p a.unuseddontuse { display: inline-block; position: relative; bottom: -7px; padding: 0 0 0 10px; width: 172px; height: 23px;}
 footer p span { padding: 0 25px;}
 footer p span:last-child { padding: 0 0 0 25px;}
 5footer .copyright { text-transform: none; white-space:nowrap; line-height: 35px;}
